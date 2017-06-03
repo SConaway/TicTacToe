@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'java-library-distribution'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main.java.srcDir "src/main/java"
+    main.resources.srcDir "src/main/resources"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'steven.conaway.tictactoe.TicTacToe'
+            mainClassName = 'steven.conaway.tictactoe.TicTacToe'
+    }
+}
+
