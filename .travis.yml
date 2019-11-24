@@ -8,6 +8,20 @@ matrix:
     dist: bionic
   - jdk: openjdk10
     dist: bionic
-  allow_failures:
-  - jdk: oraclejdk9
+  - jdk: openjdk11
+    dist: bionic
+  - jdk: oraclejdk11
+    dist: bionic
+  - jdk: openjdk12
+    dist: bionic
+  - jdk: oraclejdk12
+    dist: bionic
+  - jdk: openjdk13
+    dist: bionic
+  - jdk: oraclejdk13
+    dist: bionic
+  - jdk: openjdk14
+    dist: bionic
+  - jdk: oraclejdk14
+    dist: bionic
 
