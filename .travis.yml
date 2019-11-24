@@ -3,8 +3,6 @@ language: java
 matrix:
   include:
   - jdk: oraclejdk8
-    dist: trusty
-  - jdk: openjdk8
     dist: bionic
   - jdk: openjdk10
     dist: bionic
