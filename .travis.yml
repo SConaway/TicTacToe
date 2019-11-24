@@ -20,8 +20,4 @@ matrix:
     dist: bionic
   - jdk: oraclejdk13
     dist: bionic
-  - jdk: openjdk14
-    dist: bionic
-  - jdk: oraclejdk14
-    dist: bionic
 
