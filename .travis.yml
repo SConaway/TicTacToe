@@ -5,9 +5,9 @@ matrix:
   - jdk: oraclejdk8
     dist: trusty
   - jdk: openjdk8
-  - jdk: oraclejdk10
-    dist: trusty
+    dist: bionic
   - jdk: openjdk10
+    dist: bionic
   allow_failures:
   - jdk: oraclejdk9
 
