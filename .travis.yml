@@ -2,18 +2,10 @@ sudo: false
 language: java
 matrix:
   include:
-  - jdk: oraclejdk9
-    dist: trusty
   - jdk: oraclejdk8
-    dist: trusty
-  - jdk: oraclejdk8
-    dist: precise
-  - jdk: oraclejdk7
-    dist: precise
   - jdk: openjdk8
-    dist: trusty
-  - jdk: openjdk7
-    dist: precise
+  - jdk: oraclejdk10
+  - jdk: openjdk10
   allow_failures:
   - jdk: oraclejdk9
 
