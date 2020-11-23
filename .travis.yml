@@ -1,6 +1,9 @@
-sudo: false
 language: java
-matrix:
+
+os: linux
+dist: xenial
+
+jobs:
   include:
   - jdk: oraclejdk8
     dist: trusty
